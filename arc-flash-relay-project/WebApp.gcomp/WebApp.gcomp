@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A5F25C73F5772151422A9330D73649F7AC1B0CA28AA499950C4BD247996859E008F458EF33C92A2AAF9C9D07A0B9C090E2C0BAA71BB652E54ACF8E2E0C73DED2" Timestamp="1DADEE58EB8330B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="ba65447f549348958fbb221cb6a0147f" RootNamespaceId="f31c3c7667c54cc086044d1af43f647d" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="ade0a1c927f648d882e9d9b653b1e627" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="ed4e8e4206eb495f9679989cf1f6eace" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="db72708454044837a9c0181a518a165a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="ddfbea727ec147be897b7c86694fe749" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="d7bf9952201c4e719de7ca40e9710fa7" Name="Configuration1">
+			<CompilerSymbolTable Id="cad7cadb57f8495cbde6af663f9269c9" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="5b26daa7f3f444a589ff2c4a08abecb0" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="c52d553f8bb54973a8526542db9d4dc1" Id="334531236e694993b6794b8497f9c81c" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="30586d79c25b45b585f62cf6dc60a589" Id="15a89acfe8be48b0be95813dada47e28" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="bccc06ab61bf4c79a0ad2702ee5064d7" Id="f1010eacf9d44d28ee4874378b40f41" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="aa2d9ee6002f4ae0a1d791f24230d0d8" Id="3d3143264b6465ba4c068862d852095" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c93e2cafa23247a1a42ed9f681cb6785" Id="825604ad586a4224bc7148c6f78ac71b" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="96928268d011415e9c45215813c58189" Id="e9794b3d775d4e79a81203732ede921e" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="3d2e124a05bd4207afd19faea394c9e4" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="53d9f9a2734e484b9f56a65a063d9ed2" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f31c3c7667c54cc086044d1af43f647d" Name="WebApp">
+				<SourceFileReference Id="c52d553f8bb54973a8526542db9d4dc1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2a1013a00374466a9cf3ca739b975ceb" Name="Image">
+					<FileReference Bindings=".png" Id="30586d79c25b45b585f62cf6dc60a589" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="CDC ABB 01 450X290.png" StoragePath="Image\CDC ABB 01 450X290.png" />
+					<FileReference Bindings=".png" Id="bccc06ab61bf4c79a0ad2702ee5064d7" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LOGO 2024 V3 205X50.png" StoragePath="Image\LOGO 2024 V3 205X50.png" />
+					<FileReference Bindings=".png" Id="aa2d9ee6002f4ae0a1d791f24230d0d8" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="EECOL LOGO 156X50.png" StoragePath="Image\EECOL LOGO 156X50.png" />
+					<FileReference Bindings=".png" Id="c93e2cafa23247a1a42ed9f681cb6785" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LITELLFUSE 201X50.png" StoragePath="Image\LITELLFUSE 201X50.png" />
+					<FileReference Bindings=".png" Id="96928268d011415e9c45215813c58189" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="PHOENIX CONTACT LOGO 196X50.png" StoragePath="Image\PHOENIX CONTACT LOGO 196X50.png" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="5b980660bf784182a4f2b622e53eee98" Name="WebApp.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="d7bf9952201c4e719de7ca40e9710fa7" Id="f2a187425acf42799bb4e881ad186224" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
