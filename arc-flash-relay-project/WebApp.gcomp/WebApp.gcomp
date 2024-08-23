@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A5F25C73F5772151422A9330D73649F7AC1B0CA28AA499950C4BD247996859E008F458EF33C92A2AAF9C9D07A0B9C090E2C0BAA71BB652E54ACF8E2E0C73DED2" Timestamp="1DADEE58EB8330B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C01A2BC57B28586C0525AA1ABAA1896347D82570857FF75B45AFB05C33923C2171921B46E6F91484DBBCAAF58455302AE994DD04E0DD64715B28E1C97AC7AE68" Timestamp="1DAF56ECEBB0EBF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -22,6 +22,8 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="aa2d9ee6002f4ae0a1d791f24230d0d8" Id="3d3143264b6465ba4c068862d852095" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c93e2cafa23247a1a42ed9f681cb6785" Id="825604ad586a4224bc7148c6f78ac71b" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="96928268d011415e9c45215813c58189" Id="e9794b3d775d4e79a81203732ede921e" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="19e40d89f95343bfbef8477128073940" Id="d98c219c0faa4e74b05397ceb99e58a9" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="bf6f922ac90f45aea2ca40f482be6e1c" Id="2717b617fa454f97bdd4311b7ac6aedd" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
@@ -36,6 +38,8 @@
 					<FileReference Bindings=".png" Id="aa2d9ee6002f4ae0a1d791f24230d0d8" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="EECOL LOGO 156X50.png" StoragePath="Image\EECOL LOGO 156X50.png" />
 					<FileReference Bindings=".png" Id="c93e2cafa23247a1a42ed9f681cb6785" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LITELLFUSE 201X50.png" StoragePath="Image\LITELLFUSE 201X50.png" />
 					<FileReference Bindings=".png" Id="96928268d011415e9c45215813c58189" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="PHOENIX CONTACT LOGO 196X50.png" StoragePath="Image\PHOENIX CONTACT LOGO 196X50.png" />
+					<FileReference Bindings=".png" Id="19e40d89f95343bfbef8477128073940" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="ABB_LOGO_128X50.png" StoragePath="Image\ABB_LOGO_128X50.png" />
+					<FileReference Bindings=".png" Id="bf6f922ac90f45aea2ca40f482be6e1c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="CDC ABB 01 750X490.png" StoragePath="Image\CDC ABB 01 750X490.png" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
