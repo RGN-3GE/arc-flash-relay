@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0C1B42822729AF440A181E75D4F83CF4CD905822611BA6DE543670585F62C33D4029952742B21836AA13214BAF1550DCDEED5DB38D07686F5B5A10929EA716C5" Timestamp="1DAF6980DB9F4C5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A708F96256ACC4BD7448F09ADC1B14C6E62DAD6DFEB578FC5E868895CEC4FCE64BEB9507BEA19EC851D258F6F43C274E81A9180D9A7AA9593B147D036CBBB867" Timestamp="1DBFEA418DEC984" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -16,7 +16,6 @@
 		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="d7bf9952201c4e719de7ca40e9710fa7" Name="Configuration1">
 			<CompilerSymbolTable Id="cad7cadb57f8495cbde6af663f9269c9" xmlns="http://www.ni.com/PlatformFramework" />
 			<WebApplicationOutputTypeProperties Id="5b26daa7f3f444a589ff2c4a08abecb0" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
-			<ComponentItemProperties AssociatedEnvoyId="c52d553f8bb54973a8526542db9d4dc1" Id="334531236e694993b6794b8497f9c81c" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="30586d79c25b45b585f62cf6dc60a589" Id="15a89acfe8be48b0be95813dada47e28" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="bccc06ab61bf4c79a0ad2702ee5064d7" Id="f1010eacf9d44d28ee4874378b40f41" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="aa2d9ee6002f4ae0a1d791f24230d0d8" Id="3d3143264b6465ba4c068862d852095" />
@@ -24,6 +23,7 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="96928268d011415e9c45215813c58189" Id="e9794b3d775d4e79a81203732ede921e" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="19e40d89f95343bfbef8477128073940" Id="d98c219c0faa4e74b05397ceb99e58a9" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="bf6f922ac90f45aea2ca40f482be6e1c" Id="2717b617fa454f97bdd4311b7ac6aedd" />
+			<ComponentItemProperties AssociatedEnvoyId="d96131854afc40f389b5ef2bf27ab74e" Id="bda251a5343d4757925808cd5f918c76" TopLevel="True" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
@@ -31,7 +31,6 @@
 		<EmbeddedDefinitionReference Id="53d9f9a2734e484b9f56a65a063d9ed2" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f31c3c7667c54cc086044d1af43f647d" Name="WebApp">
-				<SourceFileReference Id="c52d553f8bb54973a8526542db9d4dc1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2a1013a00374466a9cf3ca739b975ceb" Name="Image">
 					<FileReference Bindings=".png" Id="30586d79c25b45b585f62cf6dc60a589" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="CDC ABB 01 450X290.png" StoragePath="Image\CDC ABB 01 450X290.png" />
 					<FileReference Bindings=".png" Id="bccc06ab61bf4c79a0ad2702ee5064d7" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LOGO 2024 V3 205X50.png" StoragePath="Image\LOGO 2024 V3 205X50.png" />
@@ -41,7 +40,6 @@
 					<FileReference Bindings=".png" Id="19e40d89f95343bfbef8477128073940" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="ABB_LOGO_128X50.png" StoragePath="Image\ABB_LOGO_128X50.png" />
 					<FileReference Bindings=".png" Id="bf6f922ac90f45aea2ca40f482be6e1c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="CDC ABB 01 750X490.png" StoragePath="Image\CDC ABB 01 750X490.png" />
 				</NameScopingEnvoy>
-				<SourceFileReference Id="147daf5d194f45b3a19ffc2e2910c771" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index2.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index2.gviweb" />
 				<SourceFileReference Id="d96131854afc40f389b5ef2bf27ab74e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index_2.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index_2.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>

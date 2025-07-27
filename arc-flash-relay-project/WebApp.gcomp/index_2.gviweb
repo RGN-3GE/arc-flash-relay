@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="568E78B4811FE05F70C5CF3FB0C51A2B9886D0F79E7C6D7371102307DDD8D0717185B0D404FD32E77B31DBC7B322CA464946239AF637014B502D969A883DEA90" Timestamp="1DAF69CB0D185AB" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="81453F7A649946CF26B0B6549261B6EDBFD69CE31591A9FFE165A7B982FECB037FBBCBECA3004F9B77B0ECAD16E7523AC4C44EB3AA0EFDC6CD285A60F3551AF6" Timestamp="1DBFEA396E9E166" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -47,12 +47,6 @@
 			</DataAccessor>
 			<NodeLabel AttachedTo="4eb7aca7010043fc8118bd3bd10ceaef" Bounds="1030 125 76 14" Id="5e9b7d76ee6044e2bd277b4b6def3ce4" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>URL Image_7</p.Text>
-			</NodeLabel>
-			<DataAccessor Bounds="1285 155 40 15" DataItem="47df38f71a374934bdc8c910cd9128a0" Id="d3f0c6f78b4445d4aa6ae1f6b4767b32" Label="ca26603cd3d54669b6b2b2751e188d7a">
-				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="d3f0c6f78b4445d4aa6ae1f6b4767b32" Bounds="1168 155 112 14" Id="ca26603cd3d54669b6b2b2751e188d7a" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>LogoEecol_Image_5</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="0 0 40 15" DataItem="138d10b75ba343e886dd99da7702b55e" Id="f7d6687f1e60458ebbd9e1d38f0e90f3" Label="92671f08735446c78b2fc45075b457f9">
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -193,26 +187,14 @@
 					<DataAccessor Bounds="425 145 40 15" DataItem="875a1e1b04644d7997e2b58ebc018d9c" Id="d567c1cdebc341baa65c9851b91de617" Label="bc128742e088426e9913096e747db0a6" xmlns="http://www.ni.com/MocCommon">
 						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 					</DataAccessor>
-					<DataAccessor Bounds="575 145 40 15" DataItem="3c00101368dc4ca6bf0df002d401074c" Id="55c05c5aabf04e9ab374cb0d3746c390" Label="cbf90ba215534c14bdde9e3d877a4ab2" xmlns="http://www.ni.com/MocCommon">
-						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-					</DataAccessor>
 					<DataAccessor Bounds="740 145 40 15" DataItem="f79dca2fedcd460f9678fef3e13f3020" Id="f1a90a94281e46e99eb52785c61404e9" Label="1d6ec3bd8cee4ce8b7ada2bfea5cc587" xmlns="http://www.ni.com/MocCommon">
-						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-					</DataAccessor>
-					<DataAccessor Bounds="865 180 40 15" DataItem="18bfcf127688494997863d2dbb199570" Id="2001a459aeb647fba2e19ca9c57e7bea" Label="2142bc6fad78413bb8e70792111bd5fb" xmlns="http://www.ni.com/MocCommon">
 						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 					</DataAccessor>
 					<NodeLabel AttachedTo="d567c1cdebc341baa65c9851b91de617" Bounds="335 145 85 14" Id="bc128742e088426e9913096e747db0a6" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Logo3G_Image</p.Text>
 					</NodeLabel>
-					<NodeLabel AttachedTo="55c05c5aabf04e9ab374cb0d3746c390" Bounds="472 145 98 14" Id="cbf90ba215534c14bdde9e3d877a4ab2" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>LogoEecol_Image</p.Text>
-					</NodeLabel>
 					<NodeLabel AttachedTo="f1a90a94281e46e99eb52785c61404e9" Bounds="653 145 82 14" Id="1d6ec3bd8cee4ce8b7ada2bfea5cc587" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>LogoLF_Image</p.Text>
-					</NodeLabel>
-					<NodeLabel AttachedTo="2001a459aeb647fba2e19ca9c57e7bea" Bounds="760 180 100 14" Id="2142bc6fad78413bb8e70792111bd5fb" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>LogoPHOC_Image</p.Text>
 					</NodeLabel>
 					<DataAccessor Bounds="280 120 40 15" DataItem="f50a24d80c3c4866ae35b5c0de802650" Id="3bba06110ef243fc86807bfbeb8cac95" Label="d968f6c35cb44eea8bde5f8f713677a7" xmlns="http://www.ni.com/MocCommon">
 						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -220,23 +202,11 @@
 					<NodeLabel AttachedTo="3bba06110ef243fc86807bfbeb8cac95" Bounds="176 120 99 14" Id="d968f6c35cb44eea8bde5f8f713677a7" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Logo3G_Image_2</p.Text>
 					</NodeLabel>
-					<DataAccessor Bounds="285 150 40 15" DataItem="9fe8b82e910c4fbc8c9f0e3db7d8c4d9" Id="dbd270e9c3944162a13f11f05e6e6551" Label="393654dbb429441588f97c70f6bcc0dc" xmlns="http://www.ni.com/MocCommon">
-						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-					</DataAccessor>
-					<NodeLabel AttachedTo="dbd270e9c3944162a13f11f05e6e6551" Bounds="168 150 112 14" Id="393654dbb429441588f97c70f6bcc0dc" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>LogoEecol_Image_2</p.Text>
-					</NodeLabel>
 					<DataAccessor Bounds="280 180 40 15" DataItem="84e74af15c8540a4aff72c7799085bf3" Id="b663df7aea94a23a04aa9d30dc2ce79" Label="68c9c276a66943aeb7f9fb6e75f9a0f2" xmlns="http://www.ni.com/MocCommon">
 						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 					</DataAccessor>
 					<NodeLabel AttachedTo="b663df7aea94a23a04aa9d30dc2ce79" Bounds="179 180 96 14" Id="68c9c276a66943aeb7f9fb6e75f9a0f2" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>LogoLF_Image_2</p.Text>
-					</NodeLabel>
-					<DataAccessor Bounds="125 125 40 15" DataItem="a66577ee87d940ab9348e18e1b19f738" Id="575c99608db1417781d9041ca3891f9a" Label="f22039603ab7444b8985bad3bdf7254d" xmlns="http://www.ni.com/MocCommon">
-						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-					</DataAccessor>
-					<NodeLabel AttachedTo="575c99608db1417781d9041ca3891f9a" Bounds="6 125 114 14" Id="f22039603ab7444b8985bad3bdf7254d" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>LogoPHOC_Image_2</p.Text>
 					</NodeLabel>
 					<DataAccessor Bounds="810 125 40 15" DataItem="a723c0811a4e4f01a2cd11a590433798" Id="5a220e1514d5493999b26b8ade9429ba" Label="ea94431fc1bb420d9cab50e628d3af82" xmlns="http://www.ni.com/MocCommon">
 						<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -280,29 +250,11 @@
 					<NodeLabel AttachedTo="94de1cbd4bc24b22a58e4d5802df92fc" Bounds="1056 185 99 14" Id="fecd2efef23c459ea30755d383560c4d" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Logo3G_Image_3</p.Text>
 					</NodeLabel>
-					<DataAccessor Bounds="1285 155 40 15" DataItem="426bbac7c9a45498b3f24dc3ef8e130" Id="3cb0f9bb98524b90b95282e883e27097" Label="e39fad04089c4db09735a06b3a2ddc3c" xmlns="http://www.ni.com/MocCommon">
-						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-					</DataAccessor>
-					<NodeLabel AttachedTo="3cb0f9bb98524b90b95282e883e27097" Bounds="1168 155 112 14" Id="e39fad04089c4db09735a06b3a2ddc3c" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>LogoEecol_Image_3</p.Text>
-					</NodeLabel>
 					<DataAccessor Bounds="1350 185 40 15" DataItem="664540b6e2f04394b259f3e8b4ae1097" Id="991c2c30cad1474d863c5db1e7df493e" Label="ec69b823b3fa43cc9ddee18a77719d6b" xmlns="http://www.ni.com/MocCommon">
 						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 					</DataAccessor>
 					<NodeLabel AttachedTo="991c2c30cad1474d863c5db1e7df493e" Bounds="1259 185 86 14" Id="ec69b823b3fa43cc9ddee18a77719d6b" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Panel_Image_2</p.Text>
-					</NodeLabel>
-					<DataAccessor Bounds="1445 135 40 15" DataItem="ba047b7c809540a8bddaf8c5e19cc426" Id="1e8776c88e4c4eb883a34d83e73ed3fd" Label="8b8a516d2d3240fbb13267ec01e97c13" xmlns="http://www.ni.com/MocCommon">
-						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-					</DataAccessor>
-					<NodeLabel AttachedTo="1e8776c88e4c4eb883a34d83e73ed3fd" Bounds="1326 135 114 14" Id="8b8a516d2d3240fbb13267ec01e97c13" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>LogoPHOC_Image_3</p.Text>
-					</NodeLabel>
-					<DataAccessor Bounds="725 105 40 15" DataItem="c2d4c84a7c4a4068b1d0f7c685b31d0a" Id="62cfb7167c37459f9c007117d1110ed2" Label="372152e2b8184837860ccc3c6cbf7653" xmlns="http://www.ni.com/MocCommon">
-						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-					</DataAccessor>
-					<NodeLabel AttachedTo="62cfb7167c37459f9c007117d1110ed2" Bounds="608 105 112 14" Id="372152e2b8184837860ccc3c6cbf7653" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>LogoEecol_Image_4</p.Text>
 					</NodeLabel>
 					<DataAccessor Bounds="720 70 40 15" DataItem="81ac7ecbdf214ebda7b63920e493dfed" Id="3ee8e53d7ad543f8b36a0c12fc326b5f" Label="80314e4bfe54c35ba63392ed4227de8" xmlns="http://www.ni.com/MocCommon">
 						<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1101,23 +1053,19 @@
 							<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="942df707faa641de8e8ccc3f841b486c" />
 						</Text>
 						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="5f3067384fcb404e9c925fbd34d54104" Label="[UIModel]3bddcd94db1543489d597c8f48049dd1" Left="[float]431" Source="{DataItemBinding Id=f50a24d80c3c4866ae35b5c0de802650}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]433" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="9fc3404bc57b43688ac7f393fa2259ea" Label="[UIModel]c226a959c23e49caaa983759d84b457d" Left="[float]266" Source="{DataItemBinding Id=9fe8b82e910c4fbc8c9f0e3db7d8c4d9}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]495" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="5bf2fe5d76574c099c2126b82de2793e" Label="[UIModel]35bcec3edf9d4afb8c3b97d5899280a9" Left="[float]387" Source="{DataItemBinding Id=84e74af15c8540a4aff72c7799085bf3}" Stretch="[SMStretch]Uniform" TabIndex="[int]5" Top="[float]495" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="5298797936fa45efb2c7a66b645c2d2c" Label="[UIModel]196e68b689a445f2948c246a9cb6e122" Left="[float]507" Source="{DataItemBinding Id=a66577ee87d940ab9348e18e1b19f738}" Stretch="[SMStretch]Uniform" TabIndex="[int]6" Top="[float]495" Width="[float]100" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="5bf2fe5d76574c099c2126b82de2793e" Label="[UIModel]35bcec3edf9d4afb8c3b97d5899280a9" Left="[float]387" Source="{DataItemBinding Id=84e74af15c8540a4aff72c7799085bf3}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]495" Width="[float]100" />
 						<Label Height="[float]16" Id="3bddcd94db1543489d597c8f48049dd1" LabelOwner="[UIModel]5f3067384fcb404e9c925fbd34d54104" Left="[float]431" Text="[string]Logo3G_Image_2" Top="[float]413" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="c226a959c23e49caaa983759d84b457d" LabelOwner="[UIModel]9fc3404bc57b43688ac7f393fa2259ea" Left="[float]266" Text="[string]LogoEecol_Image_2" Top="[float]475" Visible="[bool]False" Width="[float]105" xmlns="http://www.ni.com/PanelCommon" />
 						<Label Height="[float]16" Id="35bcec3edf9d4afb8c3b97d5899280a9" LabelOwner="[UIModel]5bf2fe5d76574c099c2126b82de2793e" Left="[float]387" Text="[string]LogoLF_Image_2" Top="[float]475" Visible="[bool]False" Width="[float]88" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="196e68b689a445f2948c246a9cb6e122" LabelOwner="[UIModel]5298797936fa45efb2c7a66b645c2d2c" Left="[float]507" Text="[string]LogoPHOC_Image_2" Top="[float]475" Visible="[bool]False" Width="[float]108" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="4ae401fc590f486a8b9ce8d01a81f73d" Label="[UIModel]48114bc071284000a35d834aa75695e2" Left="[float]617" Source="{DataItemBinding Id=a723c0811a4e4f01a2cd11a590433798}" Stretch="[SMStretch]Uniform" TabIndex="[int]7" Top="[float]500" Width="[float]100" />
-						<Label Height="[float]16" Id="48114bc071284000a35d834aa75695e2" LabelOwner="[UIModel]4ae401fc590f486a8b9ce8d01a81f73d" Left="[float]617" Text="[string]URL Image" Top="[float]480" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
-						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Vista SmartPhone" Height="[float]23" Id="6620d92ed1404216a684dd16fa15f5b6" Label="[UIModel]4eb53e0c08424d53b5f318f34391c890" Left="[float]423" TabIndex="[int]8" Top="[float]308" Value="{DataItemBinding Id=a3483ecae9ac4f97b0cb163062300b78}" Width="[float]152" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="4ae401fc590f486a8b9ce8d01a81f73d" Label="[UIModel]48114bc071284000a35d834aa75695e2" Left="[float]503" Source="{DataItemBinding Id=a723c0811a4e4f01a2cd11a590433798}" Stretch="[SMStretch]Uniform" TabIndex="[int]5" Top="[float]500" Width="[float]100" />
+						<Label Height="[float]16" Id="48114bc071284000a35d834aa75695e2" LabelOwner="[UIModel]4ae401fc590f486a8b9ce8d01a81f73d" Left="[float]503" Text="[string]URL Image" Top="[float]480" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Vista SmartPhone" Height="[float]23" Id="6620d92ed1404216a684dd16fa15f5b6" Label="[UIModel]4eb53e0c08424d53b5f318f34391c890" Left="[float]423" TabIndex="[int]6" Top="[float]308" Value="{DataItemBinding Id=a3483ecae9ac4f97b0cb163062300b78}" Width="[float]152" />
 						<Label Height="[float]16" Id="4eb53e0c08424d53b5f318f34391c890" LabelOwner="[UIModel]6620d92ed1404216a684dd16fa15f5b6" Left="[float]423" Text="[string]SmartPhone" Top="[float]288" Visible="[bool]False" Width="[float]65" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
 				<TabItem Header="[string]Main" Id="8c2fdcff1bba4125a35d90e489e79e84" Left="[float]0" TabIndex="[int]0" Top="[float]0">
 					<LayoutPanel Height="[float]1198" Id="ad61633b9a3b47d0b6feaf775204c83d" Left="[float]1" MinHeight="[float]53" Top="[float]1" Width="[float]998">
 						<Label Height="[float]16" Id="ac19457be3ad492f862d1c650422db8a" LabelOwner="[UIModel]bc392659a1bf4156aeae2104a1f35263" Left="[float]50" Text="[string]CDC_ABB" Top="[float]109" Visible="[bool]False" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]457" Id="bc392659a1bf4156aeae2104a1f35263" Label="[UIModel]ac19457be3ad492f862d1c650422db8a" Left="[float]50" Source="{DataItemBinding Id=9d0a07bd92da42b7a7f0958f30ee9245}" Stretch="[SMStretch]Uniform" TabIndex="[int]18" Top="[float]129" Width="[float]700" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]457" Id="bc392659a1bf4156aeae2104a1f35263" Label="[UIModel]ac19457be3ad492f862d1c650422db8a" Left="[float]50" Source="{DataItemBinding Id=9d0a07bd92da42b7a7f0958f30ee9245}" Stretch="[SMStretch]Uniform" TabIndex="[int]16" Top="[float]129" Width="[float]700" />
 						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]72" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="504dd08be63641268065d4a8e87936d3" IsReadOnly="[bool]True" Label="[UIModel]d35bbfaa2cda4e669e80724bbfb28b34" Left="[float]50" TabIndex="[int]0" Text="{DataItemBinding Id=19e009b480aa45f2a8c59e59e8c611be}" Top="[float]1091" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]900" />
 						<Label Height="[float]16" Id="d35bbfaa2cda4e669e80724bbfb28b34" LabelOwner="[UIModel]504dd08be63641268065d4a8e87936d3" Left="[float]50" Text="[string]body" Top="[float]1071" Width="[float]27" xmlns="http://www.ni.com/PanelCommon" />
 						<Chart DataSource="{DataItemBinding Id=9b39ea0f9f3a47aa812a850f34b876f6}" DataSourceType="[Type]@68a7bd6fb738428ea0f57e5afcef4170" Height="[float]216" Id="9cbf37cc52894e45a2b556eea0ecfe18" Label="[UIModel]ff145565139f4b55a636c7aec40d382d" Left="[float]50" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]1" Top="[float]667" Width="[float]400">
@@ -1172,13 +1120,9 @@
 						</Text>
 						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="3bac987940174fa4a1c011dd8a6e5823" Label="[UIModel]2b67369a43c24bc2a5e17310e804e762" Left="[float]850" Source="{DataItemBinding Id=875a1e1b04644d7997e2b58ebc018d9c}" Stretch="[SMStretch]Uniform" TabIndex="[int]8" Top="[float]152" Width="[float]100" />
 						<Label Height="[float]16" Id="2b67369a43c24bc2a5e17310e804e762" LabelOwner="[UIModel]3bac987940174fa4a1c011dd8a6e5823" Left="[float]850" Text="[string]Logo3G_Image" Top="[float]132" Visible="[bool]False" Width="[float]80" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="6eac78a1314e40078bd35ec472157718" Label="[UIModel]b1f14075022644f4bd492d3030d5375f" Left="[float]850" Source="{DataItemBinding Id=3c00101368dc4ca6bf0df002d401074c}" Stretch="[SMStretch]Uniform" TabIndex="[int]9" Top="[float]247" Width="[float]100" />
-						<Label Height="[float]16" Id="b1f14075022644f4bd492d3030d5375f" LabelOwner="[UIModel]6eac78a1314e40078bd35ec472157718" Left="[float]850" Text="[string]LogoEecol_Image" Top="[float]227" Visible="[bool]False" Width="[float]93" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="4afd648a500d4368b0640cc062151876" Label="[UIModel]d9c5413251074421a2984247bd8d9b84" Left="[float]850" Source="{DataItemBinding Id=f79dca2fedcd460f9678fef3e13f3020}" Stretch="[SMStretch]Uniform" TabIndex="[int]10" Top="[float]342" Width="[float]100" />
-						<Label Height="[float]16" Id="d9c5413251074421a2984247bd8d9b84" LabelOwner="[UIModel]4afd648a500d4368b0640cc062151876" Left="[float]850" Text="[string]LogoLF_Image" Top="[float]322" Visible="[bool]False" Width="[float]77" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="47a4cf4500464819a1ec156138c531b1" Label="[UIModel]af1e3682010d48bb86b0ec78c9ddd727" Left="[float]850" Source="{DataItemBinding Id=18bfcf127688494997863d2dbb199570}" Stretch="[SMStretch]Uniform" TabIndex="[int]11" Top="[float]437" Width="[float]100" />
-						<Label Height="[float]16" Id="af1e3682010d48bb86b0ec78c9ddd727" LabelOwner="[UIModel]47a4cf4500464819a1ec156138c531b1" Left="[float]850" Text="[string]LogoPHOC_Image" Top="[float]417" Visible="[bool]False" Width="[float]97" xmlns="http://www.ni.com/PanelCommon" />
-						<Chart DataSource="{DataItemBinding Id=1eebd9314ca347669cc0ad6fc79005c6}" DataSourceType="[Type]@68a7bd6fb738428ea0f57e5afcef4170" Height="[float]216" Id="db9d5f07d43044d8b36fbf3e335a05bd" Label="[UIModel]e7ad79b2cbc049f094f740c566ea48f0" Left="[float]543" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]12" Top="[float]667" Width="[float]400">
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="4afd648a500d4368b0640cc062151876" Label="[UIModel]d9c5413251074421a2984247bd8d9b84" Left="[float]850" Source="{DataItemBinding Id=f79dca2fedcd460f9678fef3e13f3020}" Stretch="[SMStretch]Uniform" TabIndex="[int]9" Top="[float]199" Width="[float]100" />
+						<Label Height="[float]16" Id="d9c5413251074421a2984247bd8d9b84" LabelOwner="[UIModel]4afd648a500d4368b0640cc062151876" Left="[float]850" Text="[string]LogoLF_Image" Top="[float]179" Visible="[bool]False" Width="[float]77" xmlns="http://www.ni.com/PanelCommon" />
+						<Chart DataSource="{DataItemBinding Id=1eebd9314ca347669cc0ad6fc79005c6}" DataSourceType="[Type]@68a7bd6fb738428ea0f57e5afcef4170" Height="[float]216" Id="db9d5f07d43044d8b36fbf3e335a05bd" Label="[UIModel]e7ad79b2cbc049f094f740c566ea48f0" Left="[float]543" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]10" Top="[float]667" Width="[float]400">
 							<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="c10b011c7d9c4b43b7170171bff0c472" Label="[string]" MajorDivisions="[UIModel]f1edc224beca4d6888aa75116859d20a" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<RangeLabeledDivisions Id="f1edc224beca4d6888aa75116859d20a">
 									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
@@ -1201,28 +1145,26 @@
 						<CursorLegend Graph="[UIModel]db9d5f07d43044d8b36fbf3e335a05bd" Height="[float]200" Id="65b9f29926e545dab295ba296a0d6f39" Left="[float]543" Top="[float]932" Visible="[bool]False" Width="[float]320" />
 						<GraphTools Graph="[UIModel]db9d5f07d43044d8b36fbf3e335a05bd" Height="[float]35" Id="8270590e07e84cc29b0015efce9493c6" Left="[float]543" Top="[float]890" Visible="[bool]False" Width="[float]168" />
 						<Label Height="[float]16" Id="e7ad79b2cbc049f094f740c566ea48f0" LabelOwner="[UIModel]db9d5f07d43044d8b36fbf3e335a05bd" Left="[float]543" Text="[string]Light on Sensor 3 Max" Top="[float]647" Width="[float]119" xmlns="http://www.ni.com/PanelCommon" />
-						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="301d74f50e7c44c0aeae73e55c2052ae" IsReadOnly="[bool]True" Label="[UIModel]a28f4eb3adc9454c9be2464493e232f5" Left="[float]256" TabIndex="[int]13" Top="[float]907" Value="{DataItemBinding Id=62dd7cf46423488b951c2b64f486fa7a}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="301d74f50e7c44c0aeae73e55c2052ae" IsReadOnly="[bool]True" Label="[UIModel]a28f4eb3adc9454c9be2464493e232f5" Left="[float]256" TabIndex="[int]11" Top="[float]907" Value="{DataItemBinding Id=62dd7cf46423488b951c2b64f486fa7a}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
 						<Label Height="[float]16" Id="a28f4eb3adc9454c9be2464493e232f5" LabelOwner="[UIModel]301d74f50e7c44c0aeae73e55c2052ae" Left="[float]256" Text="[string]S1 LoS Max" Top="[float]887" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
-						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="3e40755b8e13485daccf4b4d53658c3f" IsReadOnly="[bool]True" Label="[UIModel]290d7269b2844113b1958f51094dda31" Left="[float]747" TabIndex="[int]14" Top="[float]907" Value="{DataItemBinding Id=3b1a1cdfe109428895520b05f8d54213}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="3e40755b8e13485daccf4b4d53658c3f" IsReadOnly="[bool]True" Label="[UIModel]290d7269b2844113b1958f51094dda31" Left="[float]747" TabIndex="[int]12" Top="[float]907" Value="{DataItemBinding Id=3b1a1cdfe109428895520b05f8d54213}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
 						<Label Height="[float]16" Id="290d7269b2844113b1958f51094dda31" LabelOwner="[UIModel]3e40755b8e13485daccf4b4d53658c3f" Left="[float]747" Text="[string]S3 LoS Max" Top="[float]887" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
-						<Tank BaseName="[string]Tank" Height="[float]50" Id="e17d2d655ee34b6aabb350a6be05063a" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]c4e90bc5b7ec48b2aa2e1e966cc280d3" LabelPresenter="[string]DisplayFormat=SystemInternational:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Left="[float]50" Maximum="[double]50000" Orientation="[SMOrientation]Horizontal" TabIndex="[int]15" Top="[float]907" Value="{DataItemBinding Id=a8d403a87c764daba278b12eefe28048}" Width="[float]200" />
+						<Tank BaseName="[string]Tank" Height="[float]50" Id="e17d2d655ee34b6aabb350a6be05063a" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]c4e90bc5b7ec48b2aa2e1e966cc280d3" LabelPresenter="[string]DisplayFormat=SystemInternational:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Left="[float]50" Maximum="[double]50000" Orientation="[SMOrientation]Horizontal" TabIndex="[int]13" Top="[float]907" Value="{DataItemBinding Id=a8d403a87c764daba278b12eefe28048}" Width="[float]200" />
 						<Label Height="[float]16" Id="c4e90bc5b7ec48b2aa2e1e966cc280d3" LabelOwner="[UIModel]e17d2d655ee34b6aabb350a6be05063a" Left="[float]50" Text="[string]S1 Lux Max" Top="[float]887" Width="[float]60" xmlns="http://www.ni.com/PanelCommon" />
-						<Tank BaseName="[string]Tank" Height="[float]50" Id="b96cb8cdd52640d78a9366419da0e0e1" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]3b29129f17374032811b898e9bdb96a4" LabelPresenter="[string]DisplayFormat=SystemInternational:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Left="[float]543" Maximum="[double]50000" Orientation="[SMOrientation]Horizontal" TabIndex="[int]16" Top="[float]907" Value="{DataItemBinding Id=212c1e016678466bbf273c9ad139929f}" Width="[float]200" />
+						<Tank BaseName="[string]Tank" Height="[float]50" Id="b96cb8cdd52640d78a9366419da0e0e1" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]3b29129f17374032811b898e9bdb96a4" LabelPresenter="[string]DisplayFormat=SystemInternational:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Left="[float]543" Maximum="[double]50000" Orientation="[SMOrientation]Horizontal" TabIndex="[int]14" Top="[float]907" Value="{DataItemBinding Id=212c1e016678466bbf273c9ad139929f}" Width="[float]200" />
 						<Label Height="[float]16" Id="3b29129f17374032811b898e9bdb96a4" LabelOwner="[UIModel]b96cb8cdd52640d78a9366419da0e0e1" Left="[float]543" Text="[string]S3 Lux Max" Top="[float]887" Width="[float]60" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="22948fc60873408e94757f4cb2cc2a5d" Label="[UIModel]e8795713a17b42659f260b89b3c35b95" Left="[float]850" Source="{DataItemBinding Id=a7039e6476ca4475afcc56d8653c4538}" Stretch="[SMStretch]Uniform" TabIndex="[int]17" Top="[float]537" Width="[float]100" />
-						<Label Height="[float]16" Id="e8795713a17b42659f260b89b3c35b95" LabelOwner="[UIModel]22948fc60873408e94757f4cb2cc2a5d" Left="[float]850" Text="[string]URL Image_2" Top="[float]517" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="7df131f92c554ccba58db3029d2409a3" Label="[UIModel]65b32fc0f6fd46669a4c30e81fccbee2" Left="[float]71" Source="{DataItemBinding Id=1b73280c6a93445582d766ec9518a6de}" Stretch="[SMStretch]Uniform" TabIndex="[int]19" Top="[float]388" Width="[float]100" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="22948fc60873408e94757f4cb2cc2a5d" Label="[UIModel]e8795713a17b42659f260b89b3c35b95" Left="[float]850" Source="{DataItemBinding Id=a7039e6476ca4475afcc56d8653c4538}" Stretch="[SMStretch]Uniform" TabIndex="[int]15" Top="[float]255" Width="[float]100" />
+						<Label Height="[float]16" Id="e8795713a17b42659f260b89b3c35b95" LabelOwner="[UIModel]22948fc60873408e94757f4cb2cc2a5d" Left="[float]850" Text="[string]URL Image_2" Top="[float]235" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="7df131f92c554ccba58db3029d2409a3" Label="[UIModel]65b32fc0f6fd46669a4c30e81fccbee2" Left="[float]71" Source="{DataItemBinding Id=1b73280c6a93445582d766ec9518a6de}" Stretch="[SMStretch]Uniform" TabIndex="[int]17" Top="[float]388" Width="[float]100" />
 						<Label Height="[float]16" Id="65b32fc0f6fd46669a4c30e81fccbee2" LabelOwner="[UIModel]7df131f92c554ccba58db3029d2409a3" Left="[float]71" Text="[string]URL Image_3" Top="[float]368" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="78d210dab4854270920654d401778fcb" Label="[UIModel]7e2ffab737dd4b2f9fc881f0f2cab15c" Left="[float]349" Source="{DataItemBinding Id=2ed8f693a61045b48c94a7ff8530d9c7}" Stretch="[SMStretch]Uniform" TabIndex="[int]20" Top="[float]205" Width="[float]100" />
-						<Label Height="[float]16" Id="7e2ffab737dd4b2f9fc881f0f2cab15c" LabelOwner="[UIModel]78d210dab4854270920654d401778fcb" Left="[float]349" Text="[string]URL Image_5" Top="[float]185" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="eefda9f8815b4508b32e4ebbb54a7827" Label="[UIModel]13a76db77f584b30957d424cc65bbce7" Left="[float]638" Source="{DataItemBinding Id=c2d4c84a7c4a4068b1d0f7c685b31d0a}" Stretch="[SMStretch]Uniform" TabIndex="[int]21" Top="[float]167" Width="[float]80" />
-						<Label Height="[float]16" Id="13a76db77f584b30957d424cc65bbce7" LabelOwner="[UIModel]eefda9f8815b4508b32e4ebbb54a7827" Left="[float]638" Text="[string]LogoEecol_Image_4" Top="[float]147" Visible="[bool]False" Width="[float]105" xmlns="http://www.ni.com/PanelCommon" />
-						<Text BaseName="[string]Text" Height="[float]16" Id="4a380470e88b4b60b84c126e35f9d8c3" Left="[float]246" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 24.08.22 para Eecol Electric @2024" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]1009" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="914dcf2ad79247faa6087a74f500e66f" Label="[UIModel]4c196933f43649d694c7668189414610" Left="[float]431" Source="{DataItemBinding Id=271ab061258e45149b4bd916764d39bb}" Stretch="[SMStretch]Uniform" TabIndex="[int]22" Top="[float]1038" Width="[float]100" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]30" Id="78d210dab4854270920654d401778fcb" Label="[UIModel]7e2ffab737dd4b2f9fc881f0f2cab15c" Left="[float]624" Source="{DataItemBinding Id=2ed8f693a61045b48c94a7ff8530d9c7}" Stretch="[SMStretch]Uniform" TabIndex="[int]18" Top="[float]170" Width="[float]100" />
+						<Label Height="[float]16" Id="7e2ffab737dd4b2f9fc881f0f2cab15c" LabelOwner="[UIModel]78d210dab4854270920654d401778fcb" Left="[float]624" Text="[string]URL Image_5" Top="[float]150" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+						<Text BaseName="[string]Text" Height="[float]16" Id="4a380470e88b4b60b84c126e35f9d8c3" Left="[float]246" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 24.08.22 @2024" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]1009" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="914dcf2ad79247faa6087a74f500e66f" Label="[UIModel]4c196933f43649d694c7668189414610" Left="[float]431" Source="{DataItemBinding Id=271ab061258e45149b4bd916764d39bb}" Stretch="[SMStretch]Uniform" TabIndex="[int]19" Top="[float]1038" Width="[float]100" />
 						<Label Height="[float]16" Id="4c196933f43649d694c7668189414610" LabelOwner="[UIModel]914dcf2ad79247faa6087a74f500e66f" Left="[float]431" Text="[string]Logo3G_Image_5" Top="[float]1018" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
-						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6e0512dbe0aa43fb9b87564e329c529c" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]5fe04433150846d8b5c39c7ebf7ffbc5" Left="[float]759" RadixBase="[RadixBase]Decimal" TabIndex="[int]23" Top="[float]510" Value="{DataItemBinding Id=8f069f812bec40f995a250e3c9a7ace5}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6e0512dbe0aa43fb9b87564e329c529c" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]5fe04433150846d8b5c39c7ebf7ffbc5" Left="[float]759" RadixBase="[RadixBase]Decimal" TabIndex="[int]20" Top="[float]510" Value="{DataItemBinding Id=8f069f812bec40f995a250e3c9a7ace5}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" />
 						<Label Height="[float]16" Id="5fe04433150846d8b5c39c7ebf7ffbc5" LabelOwner="[UIModel]6e0512dbe0aa43fb9b87564e329c529c" Left="[float]759" Text="[string]loop iteration" Top="[float]490" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
-						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="2debf6b34554468f9157f8bc609f85b8" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]234f4a3b94ba402da815002b64e90476" Left="[float]423" RadixBase="[RadixBase]Decimal" TabIndex="[int]24" Top="[float]926" Value="{DataItemBinding Id=e2fce11d114d4a2697bcfb9f5ca8f56a}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="2debf6b34554468f9157f8bc609f85b8" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]234f4a3b94ba402da815002b64e90476" Left="[float]423" RadixBase="[RadixBase]Decimal" TabIndex="[int]21" Top="[float]926" Value="{DataItemBinding Id=e2fce11d114d4a2697bcfb9f5ca8f56a}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" />
 						<Label Height="[float]16" Id="234f4a3b94ba402da815002b64e90476" LabelOwner="[UIModel]2debf6b34554468f9157f8bc609f85b8" Left="[float]423" Text="[string]loop iteration_2" Top="[float]906" Width="[float]84" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
@@ -1232,18 +1174,14 @@
 							<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="fbff11f2ae36407eb15c33fe3e777fbf" />
 						</Text>
 						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="10d6a5d5cdd84171a702e5d2dcd9b1e2" Label="[UIModel]80c92a329a964ffaa2a3883c880d6949" Left="[float]434" Source="{DataItemBinding Id=9adaf35b8bf1449bb971447497c584c6}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]132" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="3ef4d14e6e64fb398ae677344476a69" Label="[UIModel]4496a5217e67466a95445054bb498543" Left="[float]282" Source="{DataItemBinding Id=426bbac7c9a45498b3f24dc3ef8e130}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]84" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="fe5dcdce0377450188c20d5fde3703a1" Label="[UIModel]657c5cd4726941ef8c3d09fd4c696f9c" Left="[float]392" Source="{DataItemBinding Id=81ac7ecbdf214ebda7b63920e493dfed}" Stretch="[SMStretch]Uniform" TabIndex="[int]2" Top="[float]84" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="b0c09a77e6e84fb7b842e6def3b2716a" Label="[UIModel]e6125528cc8c4b4299e9256c05acd3a7" Left="[float]499" Source="{DataItemBinding Id=ba047b7c809540a8bddaf8c5e19cc426}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]84" Width="[float]100" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="fe5dcdce0377450188c20d5fde3703a1" Label="[UIModel]657c5cd4726941ef8c3d09fd4c696f9c" Left="[float]392" Source="{DataItemBinding Id=81ac7ecbdf214ebda7b63920e493dfed}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]84" Width="[float]100" />
 						<Label Height="[float]16" Id="80c92a329a964ffaa2a3883c880d6949" LabelOwner="[UIModel]10d6a5d5cdd84171a702e5d2dcd9b1e2" Left="[float]434" Text="[string]Logo3G_Image_3" Top="[float]112" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="4496a5217e67466a95445054bb498543" LabelOwner="[UIModel]3ef4d14e6e64fb398ae677344476a69" Left="[float]282" Text="[string]LogoEecol_Image_3" Top="[float]64" Visible="[bool]False" Width="[float]105" xmlns="http://www.ni.com/PanelCommon" />
 						<Label Height="[float]16" Id="657c5cd4726941ef8c3d09fd4c696f9c" LabelOwner="[UIModel]fe5dcdce0377450188c20d5fde3703a1" Left="[float]392" Text="[string]LogoLF_Image_3" Top="[float]64" Visible="[bool]False" Width="[float]88" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="e6125528cc8c4b4299e9256c05acd3a7" LabelOwner="[UIModel]b0c09a77e6e84fb7b842e6def3b2716a" Left="[float]499" Text="[string]LogoPHOC_Image_3" Top="[float]64" Visible="[bool]False" Width="[float]108" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="5e1af51dd06148268b6f78b3d29501fb" Label="[UIModel]20884b2462a245fc8d82290d8142bef0" Left="[float]602" Source="{DataItemBinding Id=5966018fa7374d7a9b62b8e66f3fc0a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]92" Width="[float]68" />
-						<Label Height="[float]16" Id="20884b2462a245fc8d82290d8142bef0" LabelOwner="[UIModel]5e1af51dd06148268b6f78b3d29501fb" Left="[float]602" Text="[string]URL Image_4" Top="[float]72" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
-						<Text BaseName="[string]Text" Height="[float]16" Id="14789c7498794f5382558d4178de8131" Left="[float]249" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 24.08.22 para Eecol Electric @2024" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]734" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
-						<TabControl BaseName="[string]Tab" Height="[float]500" Id="5bbb858b902949a59c180a446ba5da31" IncludeInCapture="[bool]False" Label="[UIModel]f46b5a1f73af4b2ca6dd200ab90808d1" LabelLinked="[bool]False" Left="[float]264" SelectedIndex="{DataItemBinding Id=138d10b75ba343e886dd99da7702b55e}" TabIndex="[int]5" Top="[float]190" Width="[float]440">
-							<TabItem Header="[string]Layout" Id="271f00ceb5404ff595caeb8af049add4" Left="[float]0" TabIndex="[int]5" Top="[float]0">
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="5e1af51dd06148268b6f78b3d29501fb" Label="[UIModel]20884b2462a245fc8d82290d8142bef0" Left="[float]507" Source="{DataItemBinding Id=5966018fa7374d7a9b62b8e66f3fc0a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]2" Top="[float]92" Width="[float]68" />
+						<Label Height="[float]16" Id="20884b2462a245fc8d82290d8142bef0" LabelOwner="[UIModel]5e1af51dd06148268b6f78b3d29501fb" Left="[float]507" Text="[string]URL Image_4" Top="[float]72" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+						<Text BaseName="[string]Text" Height="[float]16" Id="14789c7498794f5382558d4178de8131" Left="[float]249" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 24.08.22 @2024" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]734" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
+						<TabControl BaseName="[string]Tab" Height="[float]500" Id="5bbb858b902949a59c180a446ba5da31" IncludeInCapture="[bool]False" Label="[UIModel]f46b5a1f73af4b2ca6dd200ab90808d1" LabelLinked="[bool]False" Left="[float]264" SelectedIndex="{DataItemBinding Id=138d10b75ba343e886dd99da7702b55e}" TabIndex="[int]3" Top="[float]190" Width="[float]440">
+							<TabItem Header="[string]Layout" Id="271f00ceb5404ff595caeb8af049add4" Left="[float]0" TabIndex="[int]3" Top="[float]0">
 								<LayoutPanel Height="[float]475" Id="9258b64f50044e949490a52c00498832" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]438">
 									<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]294" Id="d2883221074547c6aead7d90d206c2ec" Label="[UIModel]9e8a1bf84d014ca7bdc30dab0d82bbcb" Left="[float]15" Source="{DataItemBinding Id=664540b6e2f04394b259f3e8b4ae1097}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]56" Width="[float]400" />
 									<LED BaseName="[string]LED" FalseBackground="[SMSolidColorBrush]#ffee1c25" FalseContent="[string]Off" Height="[float]20" Id="c10525164b974ca990dedc3a473d3b7c" IsReadOnly="[bool]True" Label="[UIModel]838abe98af814a22bcb0465fc4806b71" LabelLinked="[bool]False" Left="[float]38" Shape="[LEDShape]Round" TabIndex="[int]1" Top="[float]100" TrueBackground="[SMSolidColorBrush]#ff00a64f" TrueContent="[string]On" Value="{DataItemBinding Id=e3129d6443eb4477ac6212551cad5d65}" Width="[float]20" />
@@ -1253,8 +1191,7 @@
 									<LED BaseName="[string]LED" FalseBackground="[SMSolidColorBrush]#ff00a64f" FalseContent="[string]Off" Height="[float]20" Id="d4ab059d88d040f0a462c6ff750fd052" IsReadOnly="[bool]True" Label="[UIModel]941192e56202425f881d2539b0dad771" LabelLinked="[bool]False" Left="[float]150" Shape="[LEDShape]Round" TabIndex="[int]5" Top="[float]50" TrueBackground="[SMSolidColorBrush]#ffee1c25" TrueContent="[string]On" Value="{DataItemBinding Id=49c1730e546143948e9ed95f20a4ebae}" Width="[float]20" />
 									<LED BaseName="[string]LED" FalseBackground="[SMSolidColorBrush]#ffe0e0e0" FalseContent="[string]Off" Height="[float]20" Id="425858fa21134021ac212c36dbfe5f38" IsReadOnly="[bool]True" Label="[UIModel]814715907ad0489f831342862f7c2075" LabelLinked="[bool]False" Left="[float]259" Shape="[LEDShape]Round" TabIndex="[int]6" Top="[float]50" TrueBackground="[SMSolidColorBrush]#ffee1c25" TrueContent="[string]On" Value="{DataItemBinding Id=c47bcbc71c28479b85c3228af91a30d1}" Width="[float]20" />
 									<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="28b5b3778bf34627b425e49befd62bc2" Label="[UIModel]de64f853e9b04120869d140326eeecc5" Left="[float]30" Source="{DataItemBinding Id=b2489e0fd00a4ea18765d8650ac1c2a5}" Stretch="[SMStretch]Uniform" TabIndex="[int]7" Top="[float]223" Width="[float]50" />
-									<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="27057b1e4bf2411e85dc58cdfe9a8070" Label="[UIModel]1a65c1ed76784cffbd0aa034d714b37c" Left="[float]189" Source="{DataItemBinding Id=2be62bc01e3e47758cf893d0f4c24bf2}" Stretch="[SMStretch]Uniform" TabIndex="[int]8" Top="[float]107" Width="[float]50" />
-									<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]24" Id="f6495f78b21b49b1b1b5b630d99d8170" Label="[UIModel]9018cc5769fd432f8b65a7ff916f444f" Left="[float]345" Source="{DataItemBinding Id=47df38f71a374934bdc8c910cd9128a0}" Stretch="[SMStretch]Uniform" TabIndex="[int]9" Top="[float]91" Width="[float]58" />
+									<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="27057b1e4bf2411e85dc58cdfe9a8070" Label="[UIModel]1a65c1ed76784cffbd0aa034d714b37c" Left="[float]348" Source="{DataItemBinding Id=2be62bc01e3e47758cf893d0f4c24bf2}" Stretch="[SMStretch]Uniform" TabIndex="[int]8" Top="[float]96" Width="[float]50" />
 									<Label Height="[float]16" Id="9e8a1bf84d014ca7bdc30dab0d82bbcb" LabelOwner="[UIModel]d2883221074547c6aead7d90d206c2ec" Left="[float]15" Text="[string]Panel_Image_2" Top="[float]36" Visible="[bool]False" Width="[float]78" xmlns="http://www.ni.com/PanelCommon" />
 									<Label Height="[float]16" Id="838abe98af814a22bcb0465fc4806b71" LabelAlignment="[PartAlignment]BottomCenter" LabelOwner="[UIModel]c10525164b974ca990dedc3a473d3b7c" Left="[float]20" Text="[string]SENSOR 1" Top="[float]124" Width="[float]57" xmlns="http://www.ni.com/PanelCommon">
 										<FontSetting FontFamily="Segoe UI" FontSize="9" FontStyle="Bold" Id="1cb8e36cd840476e8420ccd59c2ae943" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1275,19 +1212,18 @@
 										<FontSetting FontFamily="Segoe UI" FontSize="8" Id="57a08cbb4e3f4684afbfbe738db5235a" xmlns="http://www.ni.com/PlatformFramework" />
 									</Label>
 									<Label Height="[float]16" Id="de64f853e9b04120869d140326eeecc5" LabelOwner="[UIModel]28b5b3778bf34627b425e49befd62bc2" Left="[float]30" Text="[string]URL Image_6" Top="[float]203" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
-									<Label Height="[float]16" Id="1a65c1ed76784cffbd0aa034d714b37c" LabelOwner="[UIModel]27057b1e4bf2411e85dc58cdfe9a8070" Left="[float]189" Text="[string]URL Image_7" Top="[float]87" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
-									<Label Height="[float]16" Id="9018cc5769fd432f8b65a7ff916f444f" LabelOwner="[UIModel]f6495f78b21b49b1b1b5b630d99d8170" Left="[float]345" Text="[string]LogoEecol_Image_5" Top="[float]71" Visible="[bool]False" Width="[float]105" xmlns="http://www.ni.com/PanelCommon" />
-									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a24bce10bf39495ebca89c015ea4398d" IsReadOnly="[bool]True" Label="[UIModel]75d1338b950242f3943b043a2b912199" LabelLinked="[bool]False" Left="[float]20" TabIndex="[int]10" Top="[float]375" Value="{DataItemBinding Id=c11ac49f152542729bba9676c1177d87}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
+									<Label Height="[float]16" Id="1a65c1ed76784cffbd0aa034d714b37c" LabelOwner="[UIModel]27057b1e4bf2411e85dc58cdfe9a8070" Left="[float]348" Text="[string]URL Image_7" Top="[float]76" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a24bce10bf39495ebca89c015ea4398d" IsReadOnly="[bool]True" Label="[UIModel]75d1338b950242f3943b043a2b912199" LabelLinked="[bool]False" Left="[float]20" TabIndex="[int]9" Top="[float]375" Value="{DataItemBinding Id=c11ac49f152542729bba9676c1177d87}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
 									<Label Height="[float]16" Id="75d1338b950242f3943b043a2b912199" LabelOwner="[UIModel]a24bce10bf39495ebca89c015ea4398d" Left="[float]20" Text="[string]S1 LoS Max" Top="[float]355" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
-									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="e460d98158df4a5dbcbe9dab0a62975d" IsReadOnly="[bool]True" Label="[UIModel]ef6abfbfa81944868bf06a2113902865" LabelLinked="[bool]False" Left="[float]230" TabIndex="[int]11" Top="[float]375" Value="{DataItemBinding Id=746df06e65f24fcbbe6fc326a1c65307}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
+									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="e460d98158df4a5dbcbe9dab0a62975d" IsReadOnly="[bool]True" Label="[UIModel]ef6abfbfa81944868bf06a2113902865" LabelLinked="[bool]False" Left="[float]230" TabIndex="[int]10" Top="[float]375" Value="{DataItemBinding Id=746df06e65f24fcbbe6fc326a1c65307}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
 									<Label Height="[float]16" Id="ef6abfbfa81944868bf06a2113902865" LabelOwner="[UIModel]e460d98158df4a5dbcbe9dab0a62975d" Left="[float]230" Text="[string]S3 LoS Max" Top="[float]355" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
-									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="4a31a5aa6ac4922842da1c3ee3a4307" IsReadOnly="[bool]True" Label="[UIModel]cedcc73cb0f4a7e98ebcf7e4407e741" LabelLinked="[bool]False" Left="[float]125" TabIndex="[int]12" Top="[float]375" Value="{DataItemBinding Id=463f44a54e3e4f8aba3ac7e3327c0b93}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
+									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="4a31a5aa6ac4922842da1c3ee3a4307" IsReadOnly="[bool]True" Label="[UIModel]cedcc73cb0f4a7e98ebcf7e4407e741" LabelLinked="[bool]False" Left="[float]125" TabIndex="[int]11" Top="[float]375" Value="{DataItemBinding Id=463f44a54e3e4f8aba3ac7e3327c0b93}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
 									<Label Height="[float]16" Id="cedcc73cb0f4a7e98ebcf7e4407e741" LabelOwner="[UIModel]4a31a5aa6ac4922842da1c3ee3a4307" Left="[float]125" Text="[string]S2 LoS Max" Top="[float]355" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
-									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="da2220856ba46829386ce046ddd5058" IsReadOnly="[bool]True" Label="[UIModel]a6d363548b074cf8b1b493943d45adb4" LabelLinked="[bool]False" Left="[float]335" TabIndex="[int]13" Top="[float]375" Value="{DataItemBinding Id=830fc81789704c7fb99dc6081f2b67be}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
+									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="da2220856ba46829386ce046ddd5058" IsReadOnly="[bool]True" Label="[UIModel]a6d363548b074cf8b1b493943d45adb4" LabelLinked="[bool]False" Left="[float]335" TabIndex="[int]12" Top="[float]375" Value="{DataItemBinding Id=830fc81789704c7fb99dc6081f2b67be}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
 									<Label Height="[float]16" Id="a6d363548b074cf8b1b493943d45adb4" LabelOwner="[UIModel]da2220856ba46829386ce046ddd5058" Left="[float]335" Text="[string]S4 LoS Max" Top="[float]355" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
 								</LayoutPanel>
 							</TabItem>
-							<TabItem Header="[string]Chart Sensor 1" Id="ba75af1931e14c75b023e53248abb863" Left="[float]0" TabIndex="[int]5" Top="[float]0">
+							<TabItem Header="[string]Chart Sensor 1" Id="ba75af1931e14c75b023e53248abb863" Left="[float]0" TabIndex="[int]3" Top="[float]0">
 								<LayoutPanel Height="[float]475" Id="7d57672dc0ee4cafb358ec4f5453ec9e" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]438">
 									<Chart DataSource="{DataItemBinding Id=dce2d49b38e042589da30acea85b7de3}" DataSourceType="[Type]@68a7bd6fb738428ea0f57e5afcef4170" Height="[float]216" Id="7e5e74de1c404495b28aa923e1268bc8" Label="[UIModel]94ffb128a9fb423ba92965f3a528a985" LabelLinked="[bool]False" Left="[float]19" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]0" Top="[float]60" Width="[float]400">
 										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="76b3e5452cc64a1ba0bdf0e4b8995594" Label="[string]" MajorDivisions="[UIModel]168d7908bfa246e481bda4eda9ebdff4" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
@@ -1314,7 +1250,7 @@
 									<Label Height="[float]16" Id="94ffb128a9fb423ba92965f3a528a985" LabelOwner="[UIModel]7e5e74de1c404495b28aa923e1268bc8" Left="[float]19" Text="[string]Light on Sensor 1 Max" Top="[float]40" Width="[float]119" xmlns="http://www.ni.com/PanelCommon" />
 								</LayoutPanel>
 							</TabItem>
-							<TabItem Header="[string]Chart Sensor 3" Id="56bf1cfb8c5243fd81450e21a4366d8f" Left="[float]0" TabIndex="[int]5" Top="[float]0">
+							<TabItem Header="[string]Chart Sensor 3" Id="56bf1cfb8c5243fd81450e21a4366d8f" Left="[float]0" TabIndex="[int]3" Top="[float]0">
 								<LayoutPanel Height="[float]475" Id="fae881420cac48bfb23c8e2d7eb392db" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]438">
 									<Chart DataSource="{DataItemBinding Id=1ab95173e4ba4e12abcdf585660bfadc}" DataSourceType="[Type]@68a7bd6fb738428ea0f57e5afcef4170" Height="[float]216" Id="2ebab30345fa44b1adeaab98ff3e3521" Label="[UIModel]d51d7f4b9ef947aeaccfeb77e5845ed3" LabelLinked="[bool]False" Left="[float]19" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]0" Top="[float]60" Width="[float]400">
 										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="f43d271a285493cb0e6984059956469" Label="[string]" MajorDivisions="[UIModel]ab0d4f07b2484e6392f43e280a3bc267" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
@@ -1341,15 +1277,15 @@
 									<Label Height="[float]16" Id="d51d7f4b9ef947aeaccfeb77e5845ed3" LabelOwner="[UIModel]2ebab30345fa44b1adeaab98ff3e3521" Left="[float]19" Text="[string]Light on Sensor 3 Max" Top="[float]40" Width="[float]119" xmlns="http://www.ni.com/PanelCommon" />
 								</LayoutPanel>
 							</TabItem>
-							<TabItem Header="[string]Data In" Id="73c0d5f9e8f4465aa69e27ffbd0bcea" Left="[float]0" TabIndex="[int]5" Top="[float]0">
+							<TabItem Header="[string]Data In" Id="73c0d5f9e8f4465aa69e27ffbd0bcea" Left="[float]0" TabIndex="[int]3" Top="[float]0">
 								<LayoutPanel Height="[float]475" Id="b292a300b3164d5eaa1e4b3803b906c5" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]438">
 									<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]100" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="75dcc5ca44d347f5bce01753a23f248f" IsReadOnly="[bool]True" Label="[UIModel]611d565db12c4c30abbee8dcba81310e" LabelLinked="[bool]False" Left="[float]14" TabIndex="[int]0" Text="{DataItemBinding Id=feeaef8b7441bfa604ab749c3e69d3}" Top="[float]84" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]400" />
 									<Label Height="[float]16" Id="611d565db12c4c30abbee8dcba81310e" LabelOwner="[UIModel]75dcc5ca44d347f5bce01753a23f248f" Left="[float]14" Text="[string]body" Top="[float]64" Width="[float]27" xmlns="http://www.ni.com/PanelCommon" />
 								</LayoutPanel>
 							</TabItem>
 						</TabControl>
-						<Label Height="[float]0" Id="f46b5a1f73af4b2ca6dd200ab90808d1" LabelOwner="[UIModel]5bbb858b902949a59c180a446ba5da31" Left="[float]264" Text="[string]Tab_app" Top="[float]170" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="85fe86f52f1c425d919a3df8e82ff2ea" Label="[UIModel]61ffea653fe84eaaa3a29a651430914b" Left="[float]432" Source="{DataItemBinding Id=ede2f8653f854406818e5a13084923a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]6" Top="[float]766" Width="[float]100" />
+						<Label Height="[float]16" Id="f46b5a1f73af4b2ca6dd200ab90808d1" LabelOwner="[UIModel]5bbb858b902949a59c180a446ba5da31" Left="[float]264" Text="[string]Tab_app" Top="[float]170" Visible="[bool]False" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="85fe86f52f1c425d919a3df8e82ff2ea" Label="[UIModel]61ffea653fe84eaaa3a29a651430914b" Left="[float]432" Source="{DataItemBinding Id=ede2f8653f854406818e5a13084923a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]766" Width="[float]100" />
 						<Label Height="[float]16" Id="61ffea653fe84eaaa3a29a651430914b" LabelOwner="[UIModel]85fe86f52f1c425d919a3df8e82ff2ea" Left="[float]432" Text="[string]Logo3G_Image_4" Top="[float]746" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
@@ -1393,27 +1329,15 @@
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="875a1e1b04644d7997e2b58ebc018d9c" Name="Logo3G_Image" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/LOGO%202024%20V3%20205X50.png</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="3c00101368dc4ca6bf0df002d401074c" Name="LogoEecol_Image" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/EECOL%20LOGO%20156X50.png</p.DefaultValue>
-		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="f79dca2fedcd460f9678fef3e13f3020" Name="LogoLF_Image" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/LITELLFUSE%20201X50.png</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="18bfcf127688494997863d2dbb199570" Name="LogoPHOC_Image" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/PHOENIX%20CONTACT%20LOGO%20196X50.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" BufferSize="1024" DataType="@68a7bd6fb738428ea0f57e5afcef4170" Id="1eebd9314ca347669cc0ad6fc79005c6" Name="Light on Sensor 3 Max" xmlns="http://www.ni.com/MocCommon" />
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="f50a24d80c3c4866ae35b5c0de802650" Name="Logo3G_Image_2" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/LOGO%202024%20V3%20205X50.png</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="9fe8b82e910c4fbc8c9f0e3db7d8c4d9" Name="LogoEecol_Image_2" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/EECOL%20LOGO%20156X50.png</p.DefaultValue>
-		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="84e74af15c8540a4aff72c7799085bf3" Name="LogoLF_Image_2" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/LITELLFUSE%20201X50.png</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="a66577ee87d940ab9348e18e1b19f738" Name="LogoPHOC_Image_2" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/PHOENIX%20CONTACT%20LOGO%20196X50.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="62dd7cf46423488b951c2b64f486fa7a" Name="S1 LoS Max" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
@@ -1436,14 +1360,8 @@
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="9adaf35b8bf1449bb971447497c584c6" Name="Logo3G_Image_3" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/LOGO%202024%20V3%20205X50.png</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="426bbac7c9a45498b3f24dc3ef8e130" Name="LogoEecol_Image_3" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/EECOL%20LOGO%20156X50.png</p.DefaultValue>
-		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="81ac7ecbdf214ebda7b63920e493dfed" Name="LogoLF_Image_3" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/LITELLFUSE%20201X50.png</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="ba047b7c809540a8bddaf8c5e19cc426" Name="LogoPHOC_Image_3" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/PHOENIX%20CONTACT%20LOGO%20196X50.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="5966018fa7374d7a9b62b8e66f3fc0a2" Name="URL Image_4" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/ABB_LOGO_128X50.png</p.DefaultValue>
@@ -1489,9 +1407,6 @@
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="2ed8f693a61045b48c94a7ff8530d9c7" Name="URL Image_5" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/ABB_LOGO_128X50.png</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="c2d4c84a7c4a4068b1d0f7c685b31d0a" Name="LogoEecol_Image_4" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/EECOL%20LOGO%20156X50.png</p.DefaultValue>
-		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="a3483ecae9ac4f97b0cb163062300b78" Name="SmartPhone" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
@@ -1500,9 +1415,6 @@
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="2be62bc01e3e47758cf893d0f4c24bf2" Name="URL Image_7" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Image/ABB_LOGO_128X50.png</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="47df38f71a374934bdc8c910cd9128a0" Name="LogoEecol_Image_5" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Image/EECOL%20LOGO%20156X50.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="138d10b75ba343e886dd99da7702b55e" Name="Tab_2" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
